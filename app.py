@@ -71,7 +71,7 @@ if uploaded_file:
         st.success("✅ Analysis complete!")
 
     st.markdown('<p class="section-title">📍 Detected Features Map</p>', unsafe_allow_html=True)
-    st.image("output_map_placeholder.jpg", caption="Simulated Output Overlay", use_column_width=True)
+    st.image("output_view.jpg", caption="Simulated Output Overlay", use_column_width=True)
 
     st.markdown('<p class="section-title">📊 Feature Detection Summary</p>', unsafe_allow_html=True)
     results_df = pd.DataFrame({
